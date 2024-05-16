@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(/assets/images/banner-bk.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+    position: sticky;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-header{
+    margin: 2rem;
+    padding: 8px;
+    border:none ;
+    border-radius: 15px;
+    font-weight: 700;
+    color: black;
+    background-color: #51eca8;
+}
+.btn-header:hover{
+    cursor: pointer;
+}
+a{
+    height: 10px;
+    color: #fff;
+    text-decoration: none;
+    justify-content: flex-end;
+    margin-top: 3rem;
+}
+a:hover{
+    color:#51eca8 ;
+}
+.title-h{
+    margin-bottom: 1.5rem;
+}
+.title-header{
+    
+    width: 22rem;
+    padding: 3rem;
+    
+}
