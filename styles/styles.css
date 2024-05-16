@@ -43,3 +43,29 @@ a:hover{
     padding: 3rem;
     
 }
+h2{
+    text-align: center;
+    margin-top: 3rem;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+.card{
+    width: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+.footer-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-card>P{
+    margin-top: 1rem;
+    width: 8rem;
+}
