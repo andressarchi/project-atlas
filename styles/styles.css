@@ -143,3 +143,55 @@ h2{
     cursor: pointer;
     color: #000;
 }
+.premium-breads{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+.card-plans{
+    padding: 6rem;
+    text-align: center;
+}
+.card-plans>p{
+    margin-bottom: 1rem;
+}
+.title-plans{
+    font-size: 2rem;
+}
+.one-card-p{
+    background-color:rgb(0, 0, 61) ;
+    color: #fff;
+}
+.price{
+    font-size: 2rem;
+}
+small{
+    font-size: 16px;
+}
+.card-plans>button{
+    position: relative;
+    top: 30px;
+    padding: 1rem;
+    border:none;
+    border-radius: 30px;
+    border: 1px solid #000;
+}
+.button-plans{
+    position: relative;
+    top: 30px;
+    padding: 1rem;
+    border:none;
+    border-radius: 30px;
+    background-color:  #51eca8 ;
+}
+
+.footer-plans{
+    display: flex;
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #e1dfdf;
+    padding: 3rem;
+}
