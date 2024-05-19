@@ -195,3 +195,50 @@ small{
     background-color: #e1dfdf;
     padding: 3rem;
 }
+.contac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+.container-coontac{
+    margin-right: 10rem;
+    width: 20rem;
+}
+.contac-section{
+    background-image: url(/assets/images/contact-bk.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    color: #fff;
+}
+input{
+    border: 2px solid  #51eca8;
+    background-color: transparent;
+    border-radius: 6px;
+    padding: .2rem; 
+    color: #fff;
+    margin-right: 3rem;
+}
+.email{
+    position: relative;
+    right: -10rem;
+}
+label{
+    color:  #51eca8;
+}
+textarea{
+    width: 26rem;
+    height: 5rem;
+    background-color: transparent;
+    border: 2px solid  #51eca8;
+}
+.submit{
+    margin-top: 1rem;
+    width: 92%;
+    padding: .5rem;
+    background-color: #51eca8;
+    color:rgb(0, 0, 61);
+    border: none;
+    border-radius: 15px;
+}
