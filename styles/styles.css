@@ -23,6 +23,10 @@ header{
     justify-content: space-around;
     width: 100%;
 }
+header>img{
+    width: 6rem;
+    height: 6rem;
+}
 .btn-header{
     margin: 2rem;
     padding: 8px;
@@ -84,7 +88,7 @@ h2{
 }
 .take{
     margin-top: 10rem;
-    background-image: url(/assets/images/wave.svg);
+    background-image: url(/assets/images/wave22.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
